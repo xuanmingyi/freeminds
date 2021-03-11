@@ -4,7 +4,7 @@
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
 <hook NAME="MapStyle" background="#f9f9f8">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" followedMapLocation="file:/D:/freeplane-1.9.0-alpha-pre05/resources/templates/light_nord_template.mm" followedMapLastTime="1613879698000" .addon.mm="file"/>
+    <properties .addon.mm="file" show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" followedMapLastTime="1613879698000" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" followedMapLocation="file:/D:/freeplane-1.9.0-alpha-pre05/resources/templates/light_nord_template.mm"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -81,6 +81,16 @@
 </hook>
 <node TEXT="布局" POSITION="right" ID="ID_753813491" CREATED="1615389446602" MODIFIED="1615389451227">
 <node TEXT="SameLine" ID="ID_151212053" CREATED="1615389455305" MODIFIED="1615389461820"/>
+</node>
+<node TEXT="Window Flags" POSITION="left" ID="ID_269158023" CREATED="1615473330708" MODIFIED="1615473335557">
+<node TEXT="ImGuiWindowFlags_NoTitleBar无标题栏" ID="ID_355942802" CREATED="1615473337716" MODIFIED="1615473529736"/>
+<node TEXT="ImGuiWindowFlags_NoScrollbar无滑动条" ID="ID_1982994480" CREATED="1615473363396" MODIFIED="1615473526495"/>
+<node TEXT="ImGuiWindowFlags_MenuBar菜单" ID="ID_296777728" CREATED="1615473378084" MODIFIED="1615473535879"/>
+<node TEXT="ImGuiWindowFlags_NoMove不移动" ID="ID_837834920" CREATED="1615473378724" MODIFIED="1615473541221"/>
+<node TEXT="ImGuiWindowFlags_NoResize不调整大小" ID="ID_1115023054" CREATED="1615473379460" MODIFIED="1615473549716"/>
+<node TEXT="ImGuiWindowFlags_NoCollapse不折叠" ID="ID_1506744702" CREATED="1615473379892" MODIFIED="1615473557606"/>
+<node TEXT="ImGuiWindowFlags_NoBackground无背景" ID="ID_797062008" CREATED="1615473441044" MODIFIED="1615473565861"/>
+<node TEXT="ImGuiWindowFlags_NoBringToFrontOnFocus永远被遮挡" ID="ID_1430876992" CREATED="1615473447267" MODIFIED="1615473583985"/>
 </node>
 </node>
 </map>

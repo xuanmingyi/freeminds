@@ -1,10 +1,10 @@
 <map version="freeplane 1.9.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="QT" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1615389118843">
+<node TEXT="C++" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1615469496228">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#f9f9f8" zoom="0.909">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" followedMapLastTime="1613879698000" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" followedMapLocation="file:/D:/freeplane-1.9.0-alpha-pre05/resources/templates/light_nord_template.mm"/>
+<hook NAME="MapStyle" background="#f9f9f8">
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" followedMapLocation="file:/D:/freeplane-1.9.0-alpha-pre05/resources/templates/light_nord_template.mm" followedMapLastTime="1613879698000" .addon.mm="file"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -79,28 +79,20 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="图片" POSITION="right" ID="ID_192344416" CREATED="1615389172890" MODIFIED="1615389186876">
-<node TEXT="QImage" ID="ID_531740936" CREATED="1615389218043" MODIFIED="1615389220380">
-<node TEXT="方法" ID="ID_1794993733" CREATED="1615389709129" MODIFIED="1615389713596">
-<node TEXT="pixel(x, y) 获取坐标点像素" ID="ID_644613195" CREATED="1615389734154" MODIFIED="1615389801532"/>
+<node TEXT="Features" POSITION="right" ID="ID_1366135842" CREATED="1615469497346" MODIFIED="1615469502450">
+<node TEXT="C++11" ID="ID_823643236" CREATED="1615469518609" MODIFIED="1615469522851">
+<node TEXT="auto" ID="ID_245708621" CREATED="1615472933492" MODIFIED="1615472938949"/>
 </node>
+<node TEXT="C++14" ID="ID_583574654" CREATED="1615469523682" MODIFIED="1615469525810"/>
+<node TEXT="C++17" ID="ID_623537506" CREATED="1615469526274" MODIFIED="1615469528595"/>
+<node TEXT="C++20" ID="ID_1125306199" CREATED="1615469529297" MODIFIED="1615469530947"/>
 </node>
-<node TEXT="QPixmap" ID="ID_72751760" CREATED="1615389222810" MODIFIED="1615389225498"/>
-<node TEXT="QBitmap" ID="ID_1175787154" CREATED="1615389305338" MODIFIED="1615389307691"/>
-<node TEXT="QPicture" ID="ID_1274451052" CREATED="1615389321002" MODIFIED="1615389323355"/>
+<node TEXT="STL" POSITION="left" ID="ID_1069786941" CREATED="1615469538002" MODIFIED="1615469547892">
+<node TEXT="queue" ID="ID_1393732277" CREATED="1615469565057" MODIFIED="1615469566035"/>
+<node TEXT="vector" ID="ID_1142071585" CREATED="1615469554707" MODIFIED="1615469559922"/>
+<node TEXT="list" ID="ID_438290519" CREATED="1615469560401" MODIFIED="1615469562612"/>
+<node TEXT="array" ID="ID_648616483" CREATED="1615469566385" MODIFIED="1615469634451"/>
 </node>
-<node TEXT="布局" POSITION="left" ID="ID_1108973989" CREATED="1615389189083" MODIFIED="1615389191179">
-<node TEXT="QGridLayout" ID="ID_1270814798" CREATED="1615389193865" MODIFIED="1615389199099">
-<node TEXT="方法" ID="ID_1092255150" CREATED="1615389720154" MODIFIED="1615389723843">
-<node TEXT="addWIdget(widget, row, column)" ID="ID_1532160952" CREATED="1615389573738" MODIFIED="1615389591307"/>
-<node TEXT="addLayout(layout, row, column)" ID="ID_1248741110" CREATED="1615389592188" MODIFIED="1615389602155"/>
-<node TEXT="setSpacing(10) 设置间距" ID="ID_831622641" CREATED="1615389602953" MODIFIED="1615389676123"/>
-<node TEXT="setRowStretch" ID="ID_1569385577" CREATED="1615389676922" MODIFIED="1615389684530"/>
-<node TEXT="setColumnStretch" ID="ID_1966557858" CREATED="1615389693914" MODIFIED="1615389700492"/>
-</node>
-</node>
-<node TEXT="QVBoxLayout" ID="ID_1773580799" CREATED="1615389201866" MODIFIED="1615389206715"/>
-<node TEXT="QHBoxLayout" ID="ID_1298548114" CREATED="1615389207371" MODIFIED="1615389210811"/>
-</node>
+<node TEXT="boost" POSITION="left" ID="ID_1179794275" CREATED="1615469548945" MODIFIED="1615469551779"/>
 </node>
 </map>
