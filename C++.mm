@@ -3,8 +3,8 @@
 <node TEXT="C++" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1615469496228">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#f9f9f8" zoom="0.909">
-    <properties .addon.mm="file" show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" followedMapLastTime="1613879698000" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" followedMapLocation="file:/D:/freeplane-1.9.0-alpha-pre05/resources/templates/light_nord_template.mm"/>
+<hook NAME="MapStyle" background="#f9f9f8" zoom="1.1">
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" .addon.mm="file" show_note_icons="true" followedMapLastTime="1613879698000" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" followedMapLocation="file:/D:/freeplane-1.9.0-alpha-pre05/resources/templates/light_nord_template.mm"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -107,22 +107,41 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="fstream" ID="ID_992278676" CREATED="1615563189978" MODIFIED="1615563191611">
-<node TEXT="打开文件&#xa;fstream f;&#xa;f.open(&quot;a.binary&quot;, ios::binary | ios::in);" ID="ID_468221619" CREATED="1615565164457" MODIFIED="1615565267066"/>
+<node TEXT="打开文件&#xa;fstream f;&#xa;f.open(&quot;a.binary&quot;, ios::binary | ios::in);" ID="ID_468221619" CREATED="1615565164457" MODIFIED="1615565267066">
+<node TEXT="标识" ID="ID_106968811" CREATED="1615905979050" MODIFIED="1615906110426">
+<node TEXT="二进制 ios::binary" ID="ID_549463934" CREATED="1615905984536" MODIFIED="1615906430744"/>
+<node TEXT="只读 ios::in" ID="ID_981697553" CREATED="1615905991113" MODIFIED="1615906443850"/>
+<node TEXT="只写 ios::out" ID="ID_894804231" CREATED="1615906001736" MODIFIED="1615906450122"/>
+<node TEXT="在结尾 ios::ate" ID="ID_376526954" CREATED="1615906007721" MODIFIED="1615906457928"/>
+<node TEXT="添加 ios::app" ID="ID_1372087025" CREATED="1615906388679" MODIFIED="1615906469000"/>
+<node TEXT="置空 ios::trunc" ID="ID_491797081" CREATED="1615906391927" MODIFIED="1615906484201"/>
+</node>
+</node>
 <node TEXT="读取一个字符" ID="ID_1023939432" CREATED="1615565240776" MODIFIED="1615565254425"/>
-<node TEXT="读取一块数据" ID="ID_1910097269" CREATED="1615565271705" MODIFIED="1615565303434"/>
+<node TEXT="读取一块数据&#xa;f.read(buffer, 512);" ID="ID_1910097269" CREATED="1615565271705" MODIFIED="1615906042008"/>
+<node TEXT="移动&#xa;f.seekg(0, ios::end);" ID="ID_912805607" CREATED="1615906061975" MODIFIED="1615906079352">
+<node TEXT="标识" ID="ID_628432319" CREATED="1615906080793" MODIFIED="1615906090778">
+<node TEXT="结尾 ios::end" ID="ID_182361045" CREATED="1615906092136" MODIFIED="1615906119144"/>
+<node TEXT="开头 ios::beg" ID="ID_919641947" CREATED="1615906096425" MODIFIED="1615906127945"/>
+<node TEXT="当前 ios::cur" ID="ID_1580571378" CREATED="1615906098791" MODIFIED="1615906133992"/>
+</node>
+</node>
+<node TEXT="当前游标位置&#xa;f.tellg();" ID="ID_707037307" CREATED="1615906140536" MODIFIED="1615906164122"/>
 </node>
 <node TEXT="ifstream" ID="ID_863374670" CREATED="1615563192250" MODIFIED="1615563194524"/>
 <node TEXT="ofstream" ID="ID_163946377" CREATED="1615563195337" MODIFIED="1615563197580"/>
 </node>
 <node TEXT="字符串" ID="ID_340868812" CREATED="1615563099962" MODIFIED="1615563101899">
 <node TEXT="stringstream" ID="ID_315942530" CREATED="1615563132634" MODIFIED="1615563136092">
-<node TEXT="stringstream s;&#xa;s &lt;&lt; &quot;hello&quot;;&#xa;s &lt;&lt; 100;" ID="ID_382622207" CREATED="1615563756746" MODIFIED="1615563797052"/>
+<node TEXT="istringstream" ID="ID_1695761589" CREATED="1615563136474" MODIFIED="1615906746229">
+<node TEXT="istringstream s(&quot;s1s2s3&quot;);&#xa;char a, b, c;&#xa;int x, y, z;&#xa;s &gt;&gt; a &gt;&gt;x &gt;&gt;b &gt;&gt;y &gt;&gt;c &gt;&gt; z;" ID="ID_705671792" CREATED="1615906539017" MODIFIED="1615906746230"/>
 </node>
-<node TEXT="istringstream" ID="ID_1695761589" CREATED="1615563136474" MODIFIED="1615563176187"/>
-<node TEXT="ostringstream" ID="ID_763112638" CREATED="1615563177081" MODIFIED="1615563180059"/>
+<node TEXT="ostringstream" ID="ID_763112638" CREATED="1615563177081" MODIFIED="1615563180059">
+<node TEXT="ostringstream s;&#xa;s &lt;&lt; &quot;hello&quot;;&#xa;s &lt;&lt; 100;" ID="ID_382622207" CREATED="1615563756746" MODIFIED="1615906737721"/>
+</node>
+</node>
 </node>
 <node TEXT="控制台" ID="ID_1852979776" CREATED="1615563102234" MODIFIED="1615563110779">
 <node TEXT="iostream" ID="ID_1208332941" CREATED="1615563112154" MODIFIED="1615563115307">
