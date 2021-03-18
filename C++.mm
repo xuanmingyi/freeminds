@@ -4,7 +4,7 @@
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
 <hook NAME="MapStyle" background="#f9f9f8" zoom="1.1">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" .addon.mm="file" show_note_icons="true" followedMapLastTime="1613879698000" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" followedMapLocation="file:/D:/freeplane-1.9.0-alpha-pre05/resources/templates/light_nord_template.mm"/>
+    <properties .addon.mm="file" show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" followedMapLastTime="1613879698000" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" followedMapLocation="file:/D:/freeplane-1.9.0-alpha-pre05/resources/templates/light_nord_template.mm"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -88,12 +88,23 @@
 <node TEXT="C++20" ID="ID_1125306199" CREATED="1615469529297" MODIFIED="1615469530947"/>
 </node>
 <node TEXT="STL" POSITION="left" ID="ID_1069786941" CREATED="1615469538002" MODIFIED="1615469547892">
-<node TEXT="queue" ID="ID_1393732277" CREATED="1615469565057" MODIFIED="1615469566035"/>
+<node TEXT="智能指针" ID="ID_1671666450" CREATED="1616074841864" MODIFIED="1616074850284">
+<node TEXT="auto_ptr" ID="ID_482413391" CREATED="1616074851395" MODIFIED="1616074855685"/>
+<node TEXT="unique_ptr" ID="ID_246621540" CREATED="1616074856515" MODIFIED="1616074868117"/>
+<node TEXT="shared_ptr" ID="ID_1330342010" CREATED="1616074868419" MODIFIED="1616074872758"/>
+<node TEXT="weak_ptr" ID="ID_1543804289" CREATED="1616074873267" MODIFIED="1616074892917"/>
+</node>
+<node TEXT="顺序容器" ID="ID_1267677224" CREATED="1616074927330" MODIFIED="1616074934005">
 <node TEXT="vector" ID="ID_1142071585" CREATED="1615469554707" MODIFIED="1615469559922"/>
 <node TEXT="list" ID="ID_438290519" CREATED="1615469560401" MODIFIED="1615469562612"/>
+<node TEXT="dqueue" ID="ID_1393732277" CREATED="1615469565057" MODIFIED="1616074944245"/>
+</node>
+</node>
+<node TEXT="boost" POSITION="left" ID="ID_1179794275" CREATED="1615469548945" MODIFIED="1615469551779">
+<node TEXT="顺序容器" ID="ID_754063343" CREATED="1616074958404" MODIFIED="1616074965172">
 <node TEXT="array" ID="ID_648616483" CREATED="1615469566385" MODIFIED="1615469634451"/>
 </node>
-<node TEXT="boost" POSITION="left" ID="ID_1179794275" CREATED="1615469548945" MODIFIED="1615469551779"/>
+</node>
 <node TEXT="IO" POSITION="right" ID="ID_1306833936" CREATED="1615563077324" MODIFIED="1615563092189">
 <node TEXT="文件" ID="ID_16161747" CREATED="1615563093946" MODIFIED="1615565362403"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 
